@@ -1,0 +1,66 @@
+:root {
+--primaryRed: hsl(12, 88%, 59%);
+--primaryLightRed: hsl(12, 82%, 70%);
+--primaryBlue: hsl(228, 39%, 23%);
+
+--secundaryDarkBlue: hsl(227, 12%, 61%);
+--secundaryVeryDarkBlue: hsl(233, 12%, 13%);
+--secundaryPaleRed: hsl(13, 100%, 96%);
+--secundaryLightGray: hsl(0, 0%, 98%);
+
+}
+
+
+.corBaseVermelho {
+    color: var(--primaryRed);
+}
+.corBaseAzul {
+    color: var(--primaryBlue);
+}
+
+.corBaseVermelhoClaro {
+    color: var(--primaryLightRed);
+}
+
+
+.corAzul{
+    color: var(--secundaryDarkBlue);
+}
+.corAzulEscuro {
+    color: var(--secundaryVeryDarkBlue);
+}
+.corVermelhoClaro{
+    color: var(--secundaryPaleRed);
+}
+.corCinzaClaro{
+    color: var(--secundaryLightGray);
+}
+
+
+
+.bgBaseVermelho {
+    background-color: var(--primaryRed);
+}
+.bgBaseAzul {
+    background-color: var(--primaryBlue);
+}
+.bgBaseVermelhoClaro {
+    background-color: var(--primaryLightRed);
+}
+
+
+.bgAzul{
+    background-color: var(--secundaryDarkBlue);
+}
+.bgAzulEscuro {
+    background-color: var(--secundaryVeryDarkBlue);
+}
+.bgVermelhoClaro{
+    background-color: var(--secundaryPaleRed);
+}
+.bgCinzaClaro{
+    background-color: var(--secundaryLightGray);
+}
+
+
+

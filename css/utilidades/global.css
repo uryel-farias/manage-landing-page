@@ -1,0 +1,19 @@
+.botaoPadrao {
+    background-color: var(--primaryRed);
+    padding: 1rem 2rem;
+    border-radius: 999em;
+    cursor: pointer;
+}
+
+.botaoPadrao:hover {
+    background-color: var(--primaryLightRed);
+    box-shadow: 0px 10px 15px  -10px var(--primaryRed);
+}
+
+.botao-mobile{
+    border: 0px;
+    background-color: var(--secundaryLightGray);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,51 @@
+.banner-bg {
+    width: 100%;
+    background-color: var(--primaryRed);
+    padding: 3rem 0;
+}
+
+.banner-end {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    /*background: url(../images/bg-simplify-section-desktop.svg) no-repeat;*/
+
+}
+
+.banner-end h2 {
+    font-size: 3rem;
+    max-width: 20ch;
+}
+
+#btn-end {
+    background-color: var(--secundaryPaleRed);
+    font-weight: bold;
+}
+
+#btn-end:hover {
+    color: var(--primaryLightRed);
+}
+
+@media(max-width:900px){
+    .banner-end h2 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:650px){
+    .banner-bg {
+        padding: 2rem 0;
+    }
+    
+    .banner-end {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .banner-end h2{
+        text-align: center;
+    }
+}

@@ -1,0 +1,162 @@
+.bg-footer {
+    padding: 4rem 0;
+    background-color: var(--secundaryVeryDarkBlue);
+}
+
+.footer-conteudo {
+    max-width: 1440px;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 6rem;
+    margin: 0 auto;
+}
+
+.copy-mobile {
+    display: none;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 1rem;
+}
+
+.redes-sociais svg {
+    cursor: pointer;
+}
+
+.bg-svg:hover {
+    fill: hsl(12, 88%, 59%);
+}
+
+
+.footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.links p{
+    margin-bottom: 1rem;
+    padding-left: 6rem;
+}
+
+.links p:hover{
+    cursor: pointer;
+    color: var(--primaryRed);
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    gap: .5rem;
+}
+
+.form input{
+    padding: .8rem;
+    border-radius: 999px;
+    color: var(--secundaryDarkBlue);
+}
+
+.form button {
+    text-decoration: none;
+    color: var(--secundaryPaleRed);
+    padding: .8rem 1.5rem;
+    border-radius: 999px;
+    background-color: var(--primaryRed);
+    height: max-content;
+}
+
+.form button:hover {
+    background-color: var(--primaryLightRed);
+}
+
+.email {
+    padding-top: .5rem;
+    padding-left:1rem;
+    font-size: .8rem;
+    display: none;
+}
+
+.valido {
+    display: block;
+}
+
+.footer-copy {
+    color: var(--secundaryDarkBlue);
+    font-size: .8rem;
+    text-align: end;
+}
+
+
+@media(max-width:1100px){
+    .footer-conteudo{
+        gap: 3rem;
+    }
+
+    .links p{
+        text-align: left;
+        padding-left: 3rem;
+    }
+}
+
+@media(max-width:900px){
+
+    .footer-conteudo{
+        grid-template-columns: 1fr;
+    }
+
+    .logo-footer {
+        grid-row: 3;
+        display: grid;
+        gap: 3rem;
+        margin: 0 auto;
+    }
+
+    .logo{
+        grid-row: 2;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form {
+        margin: 0 auto;
+    }
+
+    .footer-form {
+        grid-row: 1;
+    }
+
+    .copy-mobile {
+        display: block;
+        font-size: .6rem;
+    }
+
+    .footer-copy {
+        display: none;
+    }
+
+}
+
+@media(max-width:400px){
+
+    .footer-links{
+        margin: 0 2rem;
+        gap: 1rem;
+    }
+    .links p{
+        padding-left: 0;
+    }
+}
